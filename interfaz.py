@@ -5,9 +5,12 @@ import os, sys
 import main
 
 
-
+def clear():
+    for i in tabla.get_children():
+        tabla.delete(i)
 
 def antr():
+    clear()
     if variable.get()=='2':
         matriz = [a2.get(),a1.get(),b.get()]
         print(matriz)
