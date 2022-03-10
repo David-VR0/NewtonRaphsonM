@@ -121,9 +121,9 @@ entradax = tk.Entry(width=4,textvariable=a1,font=("Arial", 14))
 entradab = tk.Entry(width=4,textvariable=b,font=("Arial", 14))
 
 
-etiquetax5 = tk.Label(text="x\u00B5 +", font=("Arial", 15))
+etiquetax5 = tk.Label(text="x\u2075 +", font=("Arial", 15))
 entradax5 = tk.Entry(width=4,textvariable=a4,font=("Arial", 14))
-etiquetax4 = tk.Label(text="x\u00B4 +", font=("Arial", 15))
+etiquetax4 = tk.Label(text="x\u2074 +", font=("Arial", 15))
 entradax4 = tk.Entry(width=4,textvariable=a4,font=("Arial", 14))
 
 etiquetax.place(x=220, y=100)
@@ -132,7 +132,7 @@ entradax2.place(x=80, y=100)
 entradax.place(x=170, y=100)
 entradab.place(x=260, y=100)
 
-etiquetaxi= tk.Label(text="xo =", font=("Arial", 15))
+etiquetaxi= tk.Label(text="x\u2080 =", font=("Arial", 15))
 etiquetaxi.place(x=140,y=150)
 entradaxi = tk.Entry(width=4,textvariable=xi,font=("Arial", 14))
 entradaxi.place(x=190,y=150)
